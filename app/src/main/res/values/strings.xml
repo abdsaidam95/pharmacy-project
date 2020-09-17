@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="app_name_parmacy">pharmacy</string>
+    <string name="error">error</string>
+    <string name="required_data_error">errorssss</string>
+    <string name="login_error">Str_eror</string>
+    <string name="error_email">error</string>
+</resources>

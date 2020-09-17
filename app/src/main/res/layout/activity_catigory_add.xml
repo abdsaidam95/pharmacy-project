@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".catigory_add">
+    <include layout="@layout/toolbar"
+        />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="32dp"
+            android:text="Add New Catigory"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/name_catigory"
+            android:layout_width="354dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="15dp"
+            android:hint="name"
+            android:paddingStart="12dp"
+            android:background="@drawable/edit_text_style"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="52dp">
+
+            <Button
+          android:id="@+id/bu_nn"
+                android:layout_width="156dp"
+                android:layout_height="37dp"
+                android:background="@drawable/button_shape"
+
+
+
+                android:text="Save"
+                android:textColor="#FFFF"
+                android:src="@drawable/ic_bot"
+
+
+
+
+
+
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/im_1"
+                android:layout_width="20.2dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_bot"
+                android:layout_toStartOf="@id/bu_nn"
+
+             />
+
+
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="305dp"
+            android:layout_height="200dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="103dp"
+            android:background="@drawable/ic_pharm"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

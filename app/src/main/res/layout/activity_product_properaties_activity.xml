@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product_properaties_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingTop="33dp"
+        android:layout_marginStart="22dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nname"
+            android:layout_width="207dp"
+            android:layout_height="35dp"
+            android:textSize="26sp"
+           android:textStyle="bold"
+            android:textColor="#60ADE3"
+            android:text="tttttititrhrth"/>
+        <TextView
+            android:id="@+id/ddiscription"
+            android:layout_width="310dp"
+            android:layout_height="274dp"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="normal"
+            android:textColor="#575555"
+
+            android:text="erahrthgregoierhgoierhgiohergioerhgioerhgoierhgioerhgioerhgioerhgoierhogierhgoihr"/>
+
+        <Button
+            android:id="@+id/log_up"
+            android:layout_width="156dp"
+            android:text="share"
+            android:textColor="#FFFF"
+            android:layout_height="37dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            />
+
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="305dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="103dp"
+        android:background="@drawable/ic_pharm"/>
+
+
+</FrameLayout>
